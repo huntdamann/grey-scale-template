@@ -1,0 +1,122 @@
+@import './fonts.css';
+@import './container.css';
+@import url("fonts.css");
+@import url("container.css");
+
+
+* {
+
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul {
+    list-style-type: none;
+}
+.nav-menu {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 100vh;
+    width: 40%;
+    background-color: #BFA100;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s ease-out;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+.nav-menu.show {
+    opacity: 1;
+    z-index: 1000;
+}
+
+.nav-menu-button {
+
+    width: 2rem;
+    margin-right: 2rem;
+    background-color: red;
+}
+.custom-btn {
+
+    background-color: blue;
+}
+main {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.line {
+    border-bottom: 1px solid #888;
+}
+.skill-offering {
+
+    background-color: red;
+    border-radius: 1rem;
+    max-width: 100%;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    transition: 150ms;
+    opacity: 0;
+    transform: translateX(100px);
+   
+   
+}
+.skill-offering.show {
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 0;
+}
+.more {
+
+    padding: 0.5rem;
+    border: 1px solid white;
+    background-color: gray;
+    color: white;
+    margin-bottom: 3rem;
+}
+.more:hover {
+
+    background-color:  #BFA100;
+}
+
+a {
+
+    transition: var(--transition-3);
+}
+
+@media (max-width: 375px) {
+
+    .more {
+        background-color: red;
+    }
+    .nav-bar-container {
+        min-height: 1rem;
+    }
+
+
+}
+@media (min-width: 1025px) {
+
+    .nav-menu {
+        opacity: 1;
+        z-index: 1000;
+        display: flex;
+        flex-direction: row;
+        position: unset;
+        height: unset;
+    }
+  
+}
+

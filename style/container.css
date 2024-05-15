@@ -1,0 +1,101 @@
+@import url("fonts.css");
+.nav-bar-container {
+
+    position: fixed;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    min-height: 3rem;
+    background-color: #BFA100;
+    opacity: 0;
+    z-index: 1000;
+    transition: var(--transition-1);
+}
+.nav-bar-container.fade {
+    opacity: 1;
+}
+.wrapper {
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.logo-container {
+
+    background-color: var(--grey-logo);
+}
+.hero-section-container {
+
+
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    height: 100vh;
+    background-color: var(--grey-section);
+
+}
+.skills-section-container {
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 2rem;
+    background-color: var(--grey-section);
+    line-height: normal;    
+
+}
+.contact-section-container {
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 2rem;
+    background-color: var(--grey-section);
+
+}
+.about-section-container {
+    border: 1px solid red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 2rem;
+    
+    background-color: var(--grey-section);
+
+}
+.about-picture-container {
+
+    background-color: hsl(0, 0%, 50%);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.skill-column-container {
+
+    background-color: var(--grey-section);
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.badge-container {
+    background-color: var(--grey-badge-certification);
+    height: 10rem;
+    width: 15rem;
+    padding: 3rem;
+}
+

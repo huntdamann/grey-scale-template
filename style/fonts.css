@@ -1,0 +1,22 @@
+:root {
+
+    --grey-section: hsl(0,0%, 80%);
+    --grey-logo: hsl(0,0%, 70%);
+    --grey-badge-certification:  hsl(0,0%, 40%);
+
+/**
+* Transition 
+*/
+    --transition-1: 250ms ease;
+    --transition-2: 500ms ease;
+    --transition-3: 1000ms ease;
+}
+#section-headings {
+
+    color: #BFA100;
+    margin-top: -3rem;
+    font-size: x-large;
+   
+    overflow: hidden;
+    white-space: nowrap;
+}

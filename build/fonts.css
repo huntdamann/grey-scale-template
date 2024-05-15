@@ -1,0 +1,23 @@
+:root {
+
+    --grey-section: hsl(0,0%, 80%);
+    --grey-logo: hsl(0,0%, 70%);
+    --grey-badge-certification:  hsl(0,0%, 40%);
+
+/**
+* Transition 
+*/
+    --transition-1: 250ms ease;
+    --transition-2: 500ms ease;
+    --transition-3: 1000ms ease;
+}
+#section-headings {
+
+    color: #BFA100;
+    margin-top: -3rem;
+    font-size: x-large;
+   
+    overflow: hidden;
+    white-space: nowrap;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3N0eWxlL2ZvbnRzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7SUFFSSw4QkFBOEI7SUFDOUIsMkJBQTJCO0lBQzNCLDJDQUEyQzs7QUFFL0M7O0NBRUM7SUFDRywwQkFBMEI7SUFDMUIsMEJBQTBCO0lBQzFCLDJCQUEyQjtBQUMvQjtBQUNBOztJQUVJLGNBQWM7SUFDZCxpQkFBaUI7SUFDakIsa0JBQWtCOztJQUVsQixnQkFBZ0I7SUFDaEIsbUJBQW1CO0FBQ3ZCIiwiZmlsZSI6ImZvbnRzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjpyb290IHtcblxuICAgIC0tZ3JleS1zZWN0aW9uOiBoc2woMCwwJSwgODAlKTtcbiAgICAtLWdyZXktbG9nbzogaHNsKDAsMCUsIDcwJSk7XG4gICAgLS1ncmV5LWJhZGdlLWNlcnRpZmljYXRpb246ICBoc2woMCwwJSwgNDAlKTtcblxuLyoqXG4qIFRyYW5zaXRpb24gXG4qL1xuICAgIC0tdHJhbnNpdGlvbi0xOiAyNTBtcyBlYXNlO1xuICAgIC0tdHJhbnNpdGlvbi0yOiA1MDBtcyBlYXNlO1xuICAgIC0tdHJhbnNpdGlvbi0zOiAxMDAwbXMgZWFzZTtcbn1cbiNzZWN0aW9uLWhlYWRpbmdzIHtcblxuICAgIGNvbG9yOiAjQkZBMTAwO1xuICAgIG1hcmdpbi10b3A6IC0zcmVtO1xuICAgIGZvbnQtc2l6ZTogeC1sYXJnZTtcbiAgIFxuICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcbn0iXX0= */
